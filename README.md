@@ -7,7 +7,7 @@ GSB-RV-Visiteur-Serveur – par [@Aaldn](https://github.com/Aaldn)
 
 [![Python 3](https://img.shields.io/badge/Python-3.10-3775ab.svg?style=flat-square&logo=python&logoColor=ffffff)](https://www.python.org/) [![Flask 2](https://img.shields.io/badge/Flask-2.0-ffffff.svg?style=flat-square&logo=flask)](https://flask.palletsprojects.com/en/2.0.x/) [![MariaDB 10](https://img.shields.io/badge/MariaDB-10.3-c0765a.svg?style=flat-square&logo=mariadb)](https://mariadb.org/)
 
-Application de gestion des réservations.
+Serveur Rest
 
 ### Documentation
 
