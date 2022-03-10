@@ -1,4 +1,4 @@
-<img src="app/src/main/resources/logo.png" align="right" width="200px"/>
+<img src="App/static/logo.png" align="right" width="200px"/>
 
 GSB-RV-Visiteur-Serveur [![Version](https://img.shields.io/badge/version-1.0.0-2fba00.svg?style=flat-square)](#readme) [![Licence](https://img.shields.io/badge/licence-MIT-2fba00.svg?style=flat-square)](https://github.com/Aaldn/GSB-RV-Visiteur-Serveur/blob/master/LICENSE.md)
 ========================
