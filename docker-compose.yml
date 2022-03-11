@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+
+  db:
+    build: mariadb
+    container_name: gsb_rv_db
+    command: --default-authentication-plugin=mysql_native_password --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    restart: always
+    volumes:
+      - db-data:/var/lib/mysql
+      - ./:/var/www/GSB-RV-Visiteur-Serveur
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+    networks:
+      - dev
+
+  www:
+    build: python
+    container_name: gsb_rv_www
+    ports:
+      - "3000:5000"
+    volumes:
+      - ./:/var/www/GSB-RV-Visiteur-Serveur
+    restart: always
+    networks:
+      - dev
+
+networks:
+  dev:
+
+volumes:
+  db-data:
