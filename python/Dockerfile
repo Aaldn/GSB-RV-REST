@@ -11,4 +11,4 @@ COPY . .
 
 WORKDIR /var/www/GSB-RV-Visiteur-Serveur/app
 
-CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
+CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--cert=../certificate/cert.pem", "--key=../certificate/key.pem"]

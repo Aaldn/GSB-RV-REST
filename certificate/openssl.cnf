@@ -1,0 +1,20 @@
+[req]
+distinguished_name = req_distinguished_name
+x509_extensions = v3_req
+prompt = no
+
+[req_distinguished_name]
+C = FR
+ST = IDF
+L = Paris
+O = Aaldn
+CN = 10.0.2.2
+
+[v3_req]
+subjectAltName = @alt_names
+
+[alt_names]
+IP.1 = 10.0.2.2
+
+# Générer un certificat
+# openssl req -x509 -newkey rsa:2048 -nodes -keyout key.pem -out cert.pem -days 365 -config openssl.cnf
