@@ -12,12 +12,14 @@ def getConnexionBD():
     global connexionBD
     try:
         if connexionBD == None:
-            connexionBD = mysql.connector.connect(
-                host='localhost',
-                user='developpeur',
-                password='azerty',
-                database='gsbrv'
-            )
+            config = {
+                'user': 'root',
+                'password': 'root',
+                'host': 'db',
+                'port': '3306',
+                'database': 'gsb_rv_visiteur'
+            }
+            connexionBD = mysql.connector.connect(**config)
         return connexionBD
     except:
         return None
