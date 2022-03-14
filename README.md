@@ -64,6 +64,8 @@ Vous pouvez maintenant accéder au serveur web depuis votre navigateur à l'URL 
 
 > N'oubliez pas de consulter la [documentation de l'API](docs/05-GSB-AppliRV-Documentation-API.pdf) pour connaître les endpoints.
 
+Pour exploiter ce projet, poursuivez avec l'installation du projet [GSB-RV-Visiteur](https://github.com/Aaldn/GSB-RV-Visiteur).
+
 ## Licence
 
 Voir le fichier [LICENSE.md](https://github.com/Aaldn/GSB-RV-Visiteur-Serveur/blob/master/LICENSE.md) fourni.
