@@ -47,20 +47,20 @@ $ git clone https://github.com/Aaldn/GSB-RV-Visiteur-Serveur
 $ cd GSB-RV-Visiteur-Serveur
 ```
 
-Puis, construisez et lancez les conteneurs Docker :
-
-```bash
-$ docker-compose up -d --build
-```
-
-Enfin, générez un certificat SSL :
+Puis, générez un certificat SSL :
 
 ```bash
 $ cd certificate
 $ openssl req -x509 -newkey rsa:2048 -nodes -keyout key.pem -out cert.pem -days 365 -config openssl.cnf
 ```
 
-Vous pouvez maintenant accéder au serveur web depuis votre navigateur à l'URL suivante : [`http://localhost:9967`](http://localhost:9967)
+Enfin, construisez et lancez les conteneurs Docker :
+
+```bash
+$ docker-compose up -d --build
+```
+
+Vous pouvez maintenant accéder au serveur web depuis votre navigateur à l'URL suivante : [`https://localhost:9967`](https://localhost:9967)
 
 > N'oubliez pas de consulter la [documentation de l'API](docs/05-GSB-AppliRV-Documentation-API.pdf) pour connaître les endpoints.
 

@@ -1,3 +1,6 @@
+drop database if exists gsb_rv;
+create database gsb_rv;
+use gsb_rv;
 -- MariaDB dump 10.19  Distrib 10.5.15-MariaDB, for Linux (x86_64)
 --
 -- Host: localhost    Database: gsb_rv
@@ -153,7 +156,7 @@ VALUES ('AA', 'Antalgiques en association'),
     'AAA',
     'Antalgiques antipyrétiques en association'
   ),
-  ('AAC', 'Antidépresseur d\'action centrale'),
+  ('AAC', "Antidépresseur d\'action centrale"),
   ('AAH', 'Antivertigineux antihistaminique H1'),
   ('ABA', 'Antibiotique antituberculeux'),
   ('ABC', 'Antibiotique antiacnéique local'),
@@ -2998,4 +3001,4 @@ UNLOCK TABLES;
 ;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */
 ;
--- Dump completed on 2022-03-14 10:40:00
+-- Dump completed on 2022-03-14 10:41:04
