@@ -85,6 +85,13 @@ def getMedicaments():
     return reponse
 
 
+# Body Request Example :
+# {
+#     "matricule": "a17",
+#     "visite": "2020-02-02",
+#     "bilan": "TEST DEBUG",
+#     "praticien": "2"
+# }
 @app.route('/rapports', methods=['POST'])
 def addRapportVisite():
     unRapport = json.loads(request.data)
@@ -121,5 +128,3 @@ def addEchantillonsOfferts(matricule, numRapport):
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
-    # Run
-    # flask run -h <host ip> -p 5000 --cert=certificate/cert.pem --key=certificate/key.pem

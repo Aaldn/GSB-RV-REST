@@ -40,9 +40,10 @@ def seConnecter(matricule, mdp):
 					) 
 					and t1.tra_role <> 'Responsable'
 					and Visiteur.vis_matricule = %s
+					and Visiteur.vis_mdp = %s
 				'''
 
-        curseur.execute(requete, (matricule, ))
+        curseur.execute(requete, (matricule, mdp,))
 
         enregistrement = curseur.fetchone()
 
