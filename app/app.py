@@ -85,13 +85,6 @@ def getMedicaments():
     return reponse
 
 
-# Body Request Example :
-# {
-#     "matricule": "a17",
-#     "visite": "2020-02-02",
-#     "bilan": "TEST DEBUG",
-#     "praticien": "2"
-# }
 @app.route('/rapports', methods=['POST'])
 def addRapportVisite():
     unRapport = json.loads(request.data)

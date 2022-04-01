@@ -1,11 +1,13 @@
 <img src="app/static/logo.png" align="right" width="200px"/>
 
-GSB RV Visiteur Serveur [![Version](https://img.shields.io/badge/version-1.0.0-2fba00.svg?style=flat-square)](#readme) [![Licence](https://img.shields.io/badge/licence-MIT-2fba00.svg?style=flat-square)](https://github.com/Aaldn/GSB-RV-Visiteur-Serveur/blob/master/LICENSE.md)
+GSB RV Visiteur Serveur [![Licence](https://img.shields.io/badge/licence-MIT-2fba00.svg?style=flat-square)](https://github.com/Aaldn/GSB-RV-Visiteur-Serveur/blob/master/LICENSE.md)
 ========================
 
 GSB Rapports Visite - module Visiteur (Serveur) – par [@Aaldn](https://github.com/Aaldn)
 
-[![Python 3](https://img.shields.io/badge/Python-3.10-3775ab.svg?style=flat-square&logo=python&logoColor=ffffff)](https://www.python.org/) [![Flask 2](https://img.shields.io/badge/Flask-2.0-ffffff.svg?style=flat-square&logo=flask)](https://flask.palletsprojects.com/en/2.0.x/) [![MariaDB 10](https://img.shields.io/badge/MariaDB-10.5-c0765a.svg?style=flat-square&logo=mariadb)](https://mariadb.org/)
+[![Python 3](https://img.shields.io/badge/Python-3.10-3775ab.svg?style=flat-square&logo=python&logoColor=ffffff)](https://www.python.org/)
+[![Flask 2](https://img.shields.io/badge/Flask-2.0-ffffff.svg?style=flat-square&logo=flask)](https://flask.palletsprojects.com/en/2.0.x/)
+[![MariaDB 10](https://img.shields.io/badge/MariaDB-10.5-c0765a.svg?style=flat-square&logo=mariadb)](https://mariadb.org/)
 
 Service Web REST de l'application [GSB-RV-Visiteur](https://github.com/Aaldn/GSB-RV-Visiteur).
 
@@ -18,7 +20,7 @@ Service Web REST de l'application [GSB-RV-Visiteur](https://github.com/Aaldn/GSB
 
 1. [GSB - Fiche descriptive](docs/01-GSB-AppliRV-FicheDescriptive.pdf)
 2. [GSB - Cas d'utilisation](docs/02-GSB-AppliRV-Visiteur-UC.pdf)
-3. [GSB - Modèle Entité-Association](docs/03-GSB-AppliRV-MEA.pdf) _(À venir)_
+3. [GSB - Modèle Entité-Association](docs/03-GSB-AppliRV-MEA.pdf)
 4. [GSB - Diagramme de navigation](docs/04-GSB-AppliRV-Navigation.pdf)
 5. [GSB - Documentation API / Arborescence](docs/05-GSB-AppliRV-Documentation-API.pdf)
 

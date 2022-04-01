@@ -1,0 +1,7 @@
+Body Request Example :
+{
+    "matricule": "a17",
+    "visite": "2020-02-02",
+    "bilan": "TEST",
+    "praticien": "2"
+}
