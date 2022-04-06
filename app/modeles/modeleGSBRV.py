@@ -67,7 +67,11 @@ def getRapportsVisite(matricule, mois, annee):
 					select 
 						rv.rap_num ,
 						rv.rap_date_visite ,
+                        rv.rap_date_redaction ,
 						rv.rap_bilan ,
+                        rv.rap_coefficient ,
+                        rv.rap_motif ,
+                        rv.rap_lu ,
 						p.pra_nom ,
 						p.pra_prenom ,
 						p.pra_cp ,
@@ -91,11 +95,16 @@ def getRapportsVisite(matricule, mois, annee):
             unRapport['rap_num'] = unEnregistrement[0]
             unRapport['rap_date_visite'] = '%04d-%02d-%02d' % (
                 unEnregistrement[1].year, unEnregistrement[1].month, unEnregistrement[1].day)
-            unRapport['rap_bilan'] = unEnregistrement[2]
-            unRapport['pra_nom'] = unEnregistrement[3]
-            unRapport['pra_prenom'] = unEnregistrement[4]
-            unRapport['pra_cp'] = unEnregistrement[5]
-            unRapport['pra_ville'] = unEnregistrement[5]
+            unRapport['rap_date_redaction'] = '%04d-%02d-%02d' % (
+                unEnregistrement[2].year, unEnregistrement[2].month, unEnregistrement[2].day)
+            unRapport['rap_bilan'] = unEnregistrement[3]
+            unRapport['rap_coefficient'] = unEnregistrement[4]
+            unRapport['rap_motif'] = unEnregistrement[5]
+            unRapport['rap_lu'] = unEnregistrement[6]
+            unRapport['pra_nom'] = unEnregistrement[7]
+            unRapport['pra_prenom'] = unEnregistrement[8]
+            unRapport['pra_cp'] = unEnregistrement[9]
+            unRapport['pra_ville'] = unEnregistrement[10]
             rapports.append(unRapport)
 
         curseur.close()
