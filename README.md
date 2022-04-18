@@ -11,6 +11,8 @@ GSB Rapports Visite - module Visiteur (Serveur) – par [@Aaldn](https://github.
 
 Service Web REST de l'application [GSB-RV-Visiteur](https://github.com/Aaldn/GSB-RV-Visiteur).
 
+<img src="screenshots/RESTClient.png"></img>
+
 ### Documentation
 
   * [Documentation utilisateur](docs/Documentation-Utilisateur.pdf) _(À venir)_
