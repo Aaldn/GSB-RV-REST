@@ -1,15 +1,15 @@
 <img src="app/static/logo.png" align="right" width="200px"/>
 
-GSB RV Visiteur Serveur [![Licence](https://img.shields.io/badge/licence-MIT-2fba00.svg?style=flat-square)](https://github.com/Aaldn/GSB-RV-Visiteur-Serveur/blob/master/LICENSE.md)
+GSB RV Visiteur Serveur [![Licence](https://img.shields.io/badge/licence-MIT-2fba00.svg?style=flat-square)](https://github.com/AladdineDev/GSB-RV-Visiteur-Serveur/blob/master/LICENSE.md)
 ========================
 
-GSB Rapports Visite - module Visiteur (Serveur) – par [@Aaldn](https://github.com/Aaldn)
+GSB Rapports Visite - module Visiteur (Serveur) – par [@AladdineDev](https://github.com/AladdineDev)
 
 [![Python 3](https://img.shields.io/badge/Python-3.10-3775ab.svg?style=flat-square&logo=python&logoColor=ffffff)](https://www.python.org/)
 [![Flask 2](https://img.shields.io/badge/Flask-2.0-ffffff.svg?style=flat-square&logo=flask)](https://flask.palletsprojects.com/en/2.0.x/)
 [![MariaDB 10](https://img.shields.io/badge/MariaDB-10.5-c0765a.svg?style=flat-square&logo=mariadb)](https://mariadb.org/)
 
-Service Web REST de l'application [GSB-RV-Visiteur](https://github.com/Aaldn/GSB-RV-Visiteur).
+Service Web REST de l'application [GSB-RV-Visiteur](https://github.com/AladdineDev/GSB-RV-Visiteur).
 
 <img src="screenshots/RESTClient.png"></img>
 
@@ -35,9 +35,9 @@ Service Web REST de l'application [GSB-RV-Visiteur](https://github.com/Aaldn/GSB
 
 ## Installation
 
-_À savoir :_ ce dépôt ne constitue que la partie serveur / service web du projet [GSB-RV-Visiteur](https://github.com/Aaldn/GSB-RV-Visiteur) qui devra être installé par la suite.
+_À savoir :_ ce dépôt ne constitue que la partie serveur / service web du projet [GSB-RV-Visiteur](https://github.com/AladdineDev/GSB-RV-Visiteur) qui devra être installé par la suite.
 
-Tout d'abord, créez le répertoire qui contiendra les dépôts [GSB-RV-Visiteur-Serveur](https://github.com/Aaldn/GSB-RV-Visiteur-Serveur) et [GSB-RV-Visiteur](https://github.com/Aaldn/GSB-RV-Visiteur) et positionnez-vous dedans : 
+Tout d'abord, créez le répertoire qui contiendra les dépôts [GSB-RV-Visiteur-Serveur](https://github.com/AladdineDev/GSB-RV-Visiteur-Serveur) et [GSB-RV-Visiteur](https://github.com/AladdineDev/GSB-RV-Visiteur) et positionnez-vous dedans : 
 
 ```bash
 $ mkdir AppliRV
@@ -47,7 +47,7 @@ $ cd AppliRV
 Ensuite, clonez ce dépôt et placez-vous au sein du projet :
 
 ```bash
-$ git clone https://github.com/Aaldn/GSB-RV-Visiteur-Serveur
+$ git clone https://github.com/AladdineDev/GSB-RV-Visiteur-Serveur
 $ cd GSB-RV-Visiteur-Serveur
 ```
 
@@ -68,8 +68,8 @@ Vous pouvez maintenant accéder au serveur web depuis votre navigateur à l'URL 
 
 > N'oubliez pas de consulter la [documentation de l'API](docs/05-GSB-AppliRV-Documentation-API.pdf) pour connaître les endpoints.
 
-Pour exploiter ce projet, poursuivez avec l'installation du projet [GSB-RV-Visiteur](https://github.com/Aaldn/GSB-RV-Visiteur).
+Pour exploiter ce projet, poursuivez avec l'installation du projet [GSB-RV-Visiteur](https://github.com/AladdineDev/GSB-RV-Visiteur).
 
 ## Licence
 
-Voir le fichier [LICENSE.md](https://github.com/Aaldn/GSB-RV-Visiteur-Serveur/blob/master/LICENSE.md) fourni.
+Voir le fichier [LICENSE.md](https://github.com/AladdineDev/GSB-RV-Visiteur-Serveur/blob/master/LICENSE.md) fourni.
